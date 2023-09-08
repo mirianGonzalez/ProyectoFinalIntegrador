@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CRaleway:300,300i,400,400i,500,500i,600,600i,700,700i%7CPoppins:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+html {
+    background-color: #F5F5F5;
+    scroll-behavior: smooth;
+    font-family: 'Open+Sans', sans-serif;
+    color:#464646;  
+}
+.nav-menu-principal {
+
+    margin-left: auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.sticky {
+    position: relative;
+    top: 1;
+    background-color: #F5F5F5;
+    width: 50%
+}
+
+.container-header {
+
+    width: 85%;
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;    
+}
+
+.menu-principal {
+
+    margin-left:auto;
+    display:flex;
+    gap:1rem;
+ }
+
+ .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+    
+    max-width: 150px;
+    margin-top: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    background: rgb(136, 245, 221);
+    margin: 15px auto;
+    width: 120px;
+    border: 8px solid #318282;
+  
+}
+
+.nombre-header {
+
+    display:flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.nombre {
+    
+    font-size:1rem;
+}
+
+.nav-text {
+
+    text-decoration: none;
+    font-weight: 500;
+    color:#464646;
+    
+}
+
+
+
+.nav-text:visited {
+
+    color:#464646;
+
+}
+
+.container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+
+    width: 97%;
+    max-width: 1240px;
+    margin: 0rem 0rem 0rem 0rem;
+    margin-top: 0rem;
+    
+        
+}
+
+.container-titulo {
+    width: 77%;
+    display:flex;
+    margin: 0rem 0rem 0rem 0rem;
+    align-items: baseline;
+    justify-content: center;
+     
+}
+
+.container-titulo h1 {
+
+    font-size:3.25rem;
+    line-height:3.815625rem;
+    font-weight: 800;
+
+}
+video{
+    width: 130%;
+    height: 210%;
+    
+}
+
+#video:hover {
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+}
+.perfil {
+
+    width: 20rem;
+    height: 20rem;
+    border-radius:20rem;
+
+    }
+
+.parrafo-perfil {
+    font-size: 100%;
+    line-height: 100%;
+    font-weight: 50;
+}
+.container-redes {
+
+    display:flex;
+    align-items: center;
+    flex-grow: 2rem;
+}
+
+.container-descripcion {
+
+    display:flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container-sobre-mi {
+
+    padding:1rem 0;
+    background-color: #EAF2FD;
+}
+
+.subtitulo {
+
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+
+.subtitulo2 {
+
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.subtitulo i {
+
+
+    margin-left:0.7rem;
+}
+
+.biografia {
+
+    line-height: 1.17375rem;
+    font-family:  'Sansita' ,sans-serif
+}
+
+.conjunto-skills, .conjunto-hobbies {
+
+    display:flex;
+    gap:1rem;
+
+} 
+
+.container-skills .subtitulo, .container-hobbies .subtitulo, .container-formacion .subtitulo, .container-proyectos .subtitulo {
+
+    text-align: center;
+    padding:2rem;
+    margin: 0;
+
+}
+.cuadrado{
+ 
+    background-color:white;
+    flex-basis:50%;
+    padding: 1rem 0;
+    font-size:4rem;
+    color: #2A7AE4;
+    text-align:center;
+    border-radius: 1rem;
+
+}
+
+.cuadrado-descripcion {
+
+    font-size:1rem;
+    color:#464646;
+    font-weight: 700;
+    margin: 0.5rem 0;
+    
+}
+
+.container-formacion {
+  
+    background-color: #EAF2FD;
+    padding:2rem 0;
+    margin-top: 3rem;
+    
+}
+
+.conjunto-formacion {
+
+    display: flex;
+    flex-flow: 1 0;
+    gap:1rem;
+}
+
+.logo {
+    
+    width:12rem;
+    height:8.125rem;
+}
+
+.cuadrado-texto {
+
+    flex-basis:50%;
+}
+
+.imagen-proyecto {
+
+    width:47rem;
+    height: 25.375rem;
+
+}
+
+.conjunto-imagen-botones {
+
+    display:flex;
+    gap:1rem;
+    align-items: center;
+    padding: 2rem 0;
+    
+}
+
+.conjunto-titulo-descripcion-botones {
+
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    
+    
+}
+
+.subtitulo2 {
+
+    flex-basis: 100%;
+}
+
+.descripcion-subtitulo2 {
+
+    margin-bottom:1.7rem;
+}
+
+.boton-repositorio {
+
+    cursor:pointer;
+    border: solid 0.15rem #2a7ae4;
+    padding:0.6rem;
+    font-size:1.4rem;
+    color:#2A7AE4;
+    text-decoration: none;
+   
+}
+
+.boton-ver, .boton-enviar {
+
+    cursor:pointer;
+    border: solid 0.15rem #2a7ae4;
+    padding:0.6rem;
+    font-size:1.4rem;
+    color:whitesmoke;
+    background-color:#2A7AE4;
+    text-decoration: none;
+}
+
+.boton-ver:hover, .boton-enviar:hover {
+
+
+    color:whitesmoke;
+    background-color:#372AE4;
+    border-color: #372AE4;
+    transition:1s;
+}
+
+.boton-repositorio:hover {
+
+    border-color: #372AE4;
+    color:#372AE4;
+    transition:1s;
+
+
+}
+.conjunto-botones {
+
+    display: flex;  
+    gap:1rem;
+    flex-wrap: wrap;
+}
+
+.fondo-formulario-contacto {
+
+    padding: 7rem 0 4rem 0;
+    background-color:#EAF2FD;
+}
+
+.imagen-formulario {
+    width:29rem;
+    height:37.0625rem;
+}
+
+.container-contacto {
+
+    width: 65%;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 2rem;;
+    display: flex;
+    gap:1rem;
+    
+}
+
+.conjunto-formulario {
+
+    margin: 0 auto;
+}
+
+.grupo-form {
+
+display:flex;
+flex-direction:column;
+background-color:white;
+margin:1rem 0;
+border-radius:0.5rem;
+
+}
+
+.label {
+
+    font-size:0.7rem;
+    padding: 0.5rem; 
+}
+
+.input-form {
+
+   font-size:1.25rem;
+   padding: 0.5rem 0.5rem;
+   border:none;
+   border-bottom: solid 0.15rem grey;
+   outline:none;
+   font-family: 'Raleway', sans-serif;
+   color:black; 
+ 
+}
+
+.input-form:focus {
+
+    border-color: #2A7AE4;
+}
+
+.mensaje-form {
+
+    outline:none;
+    border: none;
+    border-bottom: solid 0.15rem grey;
+    height:8rem;
+    padding: 0.5rem 0.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.15rem;
+    color:black;  
+    resize: none;
+    
+}
+
+.mensaje-form:focus {
+
+   border-color: #2A7AE4;
+   
+}
+.fondo-footer {
+
+    padding:2rem 2rem 3rem 2rem;
+    background-color: white;
+}
+.footer-text {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color:#464646;
+    font-size: 1.15rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+   
+}
+
+@media (min-width:451px) and (max-width:768px) {
+
+       
+    html {
+
+        font-size:8px;
+    }
+      .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+
+        width:90
+    }
+    
+    .parrafo-perfil {
+
+        font-size:1.5rem;
+        line-height:2rem;
+    }
+    .biografia {
+
+        font-size:1.4rem;
+        line-height:2rem;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+     html {
+
+        font-size:6px;
+    }
+
+
+      .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+
+        width:90%;
+
+    }
+
+    .parrafo-perfil {
+
+        font-size:2rem;
+        line-height:2.5rem;
+    }
+    .biografia {
+
+        font-size:1.8rem;
+        line-height:2.5rem;
+    }
+
+    .container-descripcion h1 {
+
+        font-size:3rem;
+    }
+
+    .conjunto-imagen-botones {
+
+        flex-flow: wrap;
+
+    }
+
+    .cuadrado-descripcion, .descripcion-subtitulo2{
+
+        font-size:1.35rem;
+    }
+
+    .fecha {
+
+        font-size:1.2rem;
+        line-height:1.9rem;
+    }
+  
+    .imagen-proyecto{
+
+        width:100%;
+    }
+
+    .conjunto-titulo-descripcion-botones {
+
+        flex-basis:100%;
+        order:2;
+    }
+
+    .boton-ver, .boton-enviar, .boton-repositorio {
+
+
+        font-size:1.45rem;
+    }
+
+    .imagen-formulario {
+
+      display:none;
+    }
+
+    .container-header {
+
+        width:90%;
+        font-size:1.1rem;
+        margin:1auto;
+
+    }
+
+    .container-main{
+
+        margin: 5rem auto;
+    }
+
+    .menu-principal{
+
+        margin-left:2rem;
+    }
+
+    .nombre {
+
+        font-size:0;
+
+    }
+
+    .nombre-header i {
+
+        font-size:3rem;
+
+}
+@media (max-width: 600px){
+
+    .header-container {
+      position: fixed;
+      z-index: 500; 
+      background: #1c2454; 
+    }
+  
+    .sticky {
+      top: 85px; 
+    }
+    .container-header {
+
+        width: 85%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 0;
+        padding: 0;
+        display: block;
+        align-items: center;    
+    }
+    
+    .menu-principal {
+    
+        margin-left:auto;
+        display:block;
+        gap:0;
+     }
+    
+    
+    .nombre-header {
+    
+        display:block;
+        align-items: center;
+        gap:0.5rem;
+    }
+    
+    .nombre {
+        
+        font-size:1rem;
+    }
+    
+    .nav-text {
+    
+        text-decoration: none;
+        font-weight: 400;
+        color:#464646;
+        
+    }
+
+    .nav-text:visited {
+    
+        color:#464646;
+    
+    }
+    
+    .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+    
+        width: 85%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 0;
+        display: block;
+        flex-flow:column wrap;
+            
+    }
+    
+    .container-titulo {
+        width: 69%;
+        display: block;
+        margin: 0rem auto;
+        align-items: baseline;
+        justify-content: space-between;
+         
+    }
+    
+    .container-titulo h1 {
+    
+        font-size:3.25rem;
+        line-height:3.815625rem;
+        font-weight: 400;
+    
+    }.container-header {
+        width: 85%;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 0;
+        padding: 0;
+        display: block;
+        align-items: center;
+    }
+
+    .menu-principal {
+        margin-left:auto;
+        display: block;
+        gap:0;
+    }
+
+    .nombre-header {
+        display:block;
+        align-items: center;
+        gap:0;
+    }
+
+    .nombre {
+        font-size:1rem;
+    }
+
+    .nav-text {
+        text-decoration: none;
+        font-weight: 400;
+        color:#464646; 
+    }
+
+    .nav-text:visited {
+        color:#464646;
+    }
+
+    .container-main, .seccion-sobre-mi, .container-skills, .container-hobbies, .seccion-formacion, .container-proyectos, .container-footer {
+        width: 65%;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 0;
+        display: block;
+        flex-flow:column wrap;
+        
+    }
+
+    .container-titulo {
+        width: 69%;
+        display:block;
+        margin: 0 auto;
+        align-items: baseline;
+        justify-content: space-between;   
+    }
+
+    .container-titulo h1 {
+        font-size:3.25rem;
+        line-height:3.815625rem;
+        font-weight: 400;
+    }
+
+    video{
+        justify-content: space-between;
+        width: 100%;
+        height: max-content;
+        text-align: justify;
+        padding: 0;
+    }
+
+    #video:hover {
+        transform: translate(350px,0);
+        -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+        -o-transform: translate(350px,0); /** Opera **/
+        -moz-transform: translate(350px,0); /** Firefox **/
+    }
+    .perfil {
+        width: 10rem;
+        height: 10rem;
+        border-radius:10rem;
+
+    }
+
+    .parrafo-perfil {
+        font-size: 1.375rem;
+        line-height: 1.614375rem;
+        font-weight: 400;
+    }
+    .container-redes {
+        display: block;
+        align-items: center;
+        flex-grow: 0rem;
+    }
+
+    .container-descripcion {
+        display:block;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+  }
+
+}
